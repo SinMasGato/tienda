@@ -1,0 +1,42 @@
+.card {
+    margin-bottom: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0,0,0,.075);
+}
+
+.alert {
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1rem 0;
+    background-color: #343a40;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0.5rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+}
